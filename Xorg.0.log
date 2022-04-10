@@ -1,0 +1,287 @@
+[  2458.800] (--) Log file renamed from "/var/log/Xorg.pid-10934.log" to "/var/log/Xorg.0.log"
+[  2458.801] 
+X.Org X Server 1.19.6
+Release Date: 2017-12-20
+[  2458.801] X Protocol Version 11, Revision 0
+[  2458.801] Build Operating System: Linux 4.15.0-109-generic aarch64 Ubuntu
+[  2458.801] Current Operating System: Linux alicejetsonnao-desktop 4.9.201-tegra #1 SMP PREEMPT Fri Feb 19 08:40:32 PST 2021 aarch64
+[  2458.801] Kernel command line: tegraid=21.1.2.0.0 ddr_die=4096M@2048M section=512M memtype=0 vpr_resize usb_port_owner_info=0 lane_owner_info=0 emc_max_dvfs=0 touch_id=0@63 video=tegrafb no_console_suspend=1 console=ttyS0,115200n8 debug_uartport=lsport,4 earlyprintk=uart8250-32bit,0x70006000 maxcpus=4 usbcore.old_scheme_first=1 lp0_vec=0x1000@0xff780000 core_edp_mv=1075 core_edp_ma=4000 gpt tegra_fbmem=0x800000@0x92ca9000 is_hdmi_initialised=1  earlycon=uart8250,mmio32,0x70006000  root=/dev/mmcblk0p1 rw rootwait rootfstype=ext4 console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 quiet root=/dev/mmcblk0p1 rw rootwait rootfstype=ext4 console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 
+[  2458.802] Build Date: 15 September 2020  07:46:13AM
+[  2458.802] xorg-server 2:1.19.6-1ubuntu4.7 (For technical support please see http://www.ubuntu.com/support) 
+[  2458.802] Current version of pixman: 0.34.0
+[  2458.802] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[  2458.802] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[  2458.802] (==) Log file: "/var/log/Xorg.0.log", Time: Wed Apr  6 23:27:50 2022
+[  2458.802] (==) Using config file: "/etc/X11/xorg.conf"
+[  2458.802] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[  2458.803] (==) No Layout section.  Using the first Screen section.
+[  2458.803] (==) No screen section available. Using defaults.
+[  2458.803] (**) |-->Screen "Default Screen Section" (0)
+[  2458.803] (**) |   |-->Monitor "<default monitor>"
+[  2458.804] (==) No device specified for screen "Default Screen Section".
+	Using the first device section listed.
+[  2458.804] (**) |   |-->Device "Tegra0"
+[  2458.804] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[  2458.804] (==) Automatically adding devices
+[  2458.804] (==) Automatically enabling devices
+[  2458.805] (==) Automatically adding GPU devices
+[  2458.805] (==) Automatically binding GPU devices
+[  2458.805] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[  2458.805] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[  2458.805] 	Entry deleted from font path.
+[  2458.805] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[  2458.805] 	Entry deleted from font path.
+[  2458.805] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[  2458.805] 	Entry deleted from font path.
+[  2458.805] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[  2458.805] 	Entry deleted from font path.
+[  2458.805] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[  2458.805] 	Entry deleted from font path.
+[  2458.805] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[  2458.805] (==) ModulePath set to "/usr/lib/xorg/modules"
+[  2458.805] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[  2458.805] (II) Loader magic: 0x558d9e0010
+[  2458.805] (II) Module ABI versions:
+[  2458.805] 	X.Org ANSI C Emulation: 0.4
+[  2458.805] 	X.Org Video Driver: 23.0
+[  2458.805] 	X.Org XInput driver : 24.1
+[  2458.805] 	X.Org Server Extension : 10.0
+[  2458.807] (++) using VT number 1
+
+[  2458.813] (II) systemd-logind: took control of session /org/freedesktop/login1/session/c43
+[  2458.815] (II) no primary bus or device found
+[  2458.815] (WW) "dri" will not be loaded unless you've specified it to be loaded elsewhere.
+[  2458.816] (II) "glx" will be loaded by default.
+[  2458.816] (II) LoadModule: "extmod"
+[  2458.817] (II) Module "extmod" already built-in
+[  2458.817] (II) LoadModule: "glx"
+[  2458.817] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[  2458.820] (II) Module glx: vendor="X.Org Foundation"
+[  2458.820] 	compiled for 1.19.6, module version = 1.0.0
+[  2458.820] 	ABI class: X.Org Server Extension, version 10.0
+[  2458.820] (II) LoadModule: "nvidia"
+[  2458.821] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[  2458.822] (II) Module nvidia: vendor="NVIDIA Corporation"
+[  2458.822] 	compiled for 4.0.2, module version = 1.0.0
+[  2458.822] 	Module class: X.Org Video Driver
+[  2458.822] (II) NVIDIA dlloader X Driver  32.5.2  Release Build  (integ_stage_rel)  (buildbrain@mobile-u64-5497-d7000)  Fri Jul  9 08:56:20 PDT 2021
+[  2458.822] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[  2458.823] (WW) Falling back to old probe method for NVIDIA
+[  2458.823] (II) Loading sub module "fb"
+[  2458.823] (II) LoadModule: "fb"
+[  2458.823] (II) Loading /usr/lib/xorg/modules/libfb.so
+[  2458.823] (II) Module fb: vendor="X.Org Foundation"
+[  2458.823] 	compiled for 1.19.6, module version = 1.0.0
+[  2458.823] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[  2458.823] (II) Loading sub module "wfb"
+[  2458.823] (II) LoadModule: "wfb"
+[  2458.824] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[  2458.824] (II) Module wfb: vendor="X.Org Foundation"
+[  2458.824] 	compiled for 1.19.6, module version = 1.0.0
+[  2458.825] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[  2458.825] (II) Loading sub module "ramdac"
+[  2458.825] (II) LoadModule: "ramdac"
+[  2458.825] (II) Module "ramdac" already built-in
+[  2458.826] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[  2458.826] (II) NVIDIA(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[  2458.826] (==) NVIDIA(0): Depth 24, (==) framebuffer bpp 32
+[  2458.826] (==) NVIDIA(0): RGB weight 888
+[  2458.826] (==) NVIDIA(0): Default visual is TrueColor
+[  2458.826] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[  2458.826] (DB) xf86MergeOutputClassOptions unsupported bus type 0
+[  2458.827] (**) NVIDIA(0): Option "AllowEmptyInitialConfiguration" "true"
+[  2458.827] (**) NVIDIA(0): Enabling 2D acceleration
+[  2458.827] (II) Loading sub module "glxserver_nvidia"
+[  2458.827] (II) LoadModule: "glxserver_nvidia"
+[  2458.827] (II) Loading /usr/lib/xorg/modules/extensions/libglxserver_nvidia.so
+[  2458.828] (EE) Failed to load /usr/lib/xorg/modules/extensions/libglxserver_nvidia.so: libnvidia-tls.so.32.5.2: cannot open shared object file: No such file or directory
+[  2458.828] (II) UnloadModule: "glxserver_nvidia"
+[  2458.828] (II) Unloading glxserver_nvidia
+[  2458.828] (EE) NVIDIA: Failed to load module "glxserver_nvidia" (loader failed, 7)
+[  2458.828] (EE) NVIDIA(0): Failed to initialize the GLX module; please check in your X
+[  2458.828] (EE) NVIDIA(0):     log file that the GLX module has been loaded in your X
+[  2458.828] (EE) NVIDIA(0):     server, and that the module is the NVIDIA GLX module.  If
+[  2458.828] (EE) NVIDIA(0):     you continue to encounter problems, Please try
+[  2458.828] (EE) NVIDIA(0):     reinstalling the NVIDIA driver.
+[  2458.842] (--) NVIDIA(0): Valid display device(s) on GPU-0 at SoC
+[  2458.842] (--) NVIDIA(0):     DFP-0
+[  2458.842] (--) NVIDIA(0):     DFP-1
+[  2458.842] (II) NVIDIA(0): NVIDIA GPU NVIDIA Tegra X1 (nvgpu) (GM20B) at SoC (GPU-0)
+[  2458.842] (--) NVIDIA(0): Memory: 4051080 kBytes
+[  2458.842] (--) NVIDIA(0): VideoBIOS: 
+[  2458.842] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  2458.842] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): External TMDS
+[  2458.843] (==) NVIDIA(0): 
+[  2458.843] (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+[  2458.843] (==) NVIDIA(0):     will be used as the requested mode.
+[  2458.844] (==) NVIDIA(0): 
+[  2458.844] (II) NVIDIA(0): Validated MetaModes:
+[  2458.844] (II) NVIDIA(0):     "DFP-0:nvidia-auto-select"
+[  2458.844] (II) NVIDIA(0): Virtual screen size determined to be 1920 x 1080
+[  2458.847] (--) NVIDIA(0): DPI set to (81, 80); computed from "UseEdidDpi" X config
+[  2458.847] (--) NVIDIA(0):     option
+[  2458.847] (--) Depth 24 pixmap format is 32 bpp
+[  2458.847] (II) NVIDIA: Reserving 6144.00 MB of virtual memory for indirect memory
+[  2458.847] (II) NVIDIA:     access.
+[  2458.851] (EE) NVIDIA(0): Failed to allocate NVIDIA Error Handler
+[  2458.851] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[  2458.851] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[  2458.851] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[  2458.851] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[  2458.851] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[  2458.851] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[  2458.851] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[  2458.851] (II) NVIDIA(0):     Config Options in the README.
+[  2458.929] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[  2458.940] (==) NVIDIA(0): Disabling shared memory pixmaps
+[  2458.940] (==) NVIDIA(0): Backing store enabled
+[  2458.940] (==) NVIDIA(0): Silken mouse enabled
+[  2458.953] (==) NVIDIA(0): DPMS enabled
+[  2458.954] (II) Loading sub module "dri2"
+[  2458.954] (II) LoadModule: "dri2"
+[  2458.954] (II) Module "dri2" already built-in
+[  2458.954] (II) NVIDIA(0): [DRI2] Setup complete
+[  2458.954] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[  2458.973] (--) RandR disabled
+[  2458.984] (II) SELinux: Disabled on system
+[  2458.986] (II) AIGLX: Screen 0 is not DRI2 capable
+[  2458.986] (EE) AIGLX: reverting to software rendering
+[  2459.069] (II) IGLX: enabled GLX_MESA_copy_sub_buffer
+[  2459.074] (II) IGLX: Loaded and initialized swrast
+[  2459.074] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[  2459.212] (II) config/udev: Adding input device tegra-hda HDMI/DP,pcm=3 (/dev/input/event0)
+[  2459.213] (II) No input driver specified, ignoring this device.
+[  2459.213] (II) This device may have been added with another device file.
+[  2459.215] (II) config/udev: Adding input device Logitech M585/M590 (/dev/input/event4)
+[  2459.216] (**) Logitech M585/M590: Applying InputClass "libinput pointer catchall"
+[  2459.216] (**) Logitech M585/M590: Applying InputClass "libinput keyboard catchall"
+[  2459.216] (II) LoadModule: "libinput"
+[  2459.217] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[  2459.222] (II) Module libinput: vendor="X.Org Foundation"
+[  2459.222] 	compiled for 1.19.6, module version = 0.27.1
+[  2459.222] 	Module class: X.Org XInput Driver
+[  2459.222] 	ABI class: X.Org XInput driver, version 24.1
+[  2459.222] (II) Using input driver 'libinput' for 'Logitech M585/M590'
+[  2459.225] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 33 paused 0
+[  2459.225] (**) Logitech M585/M590: always reports core events
+[  2459.225] (**) Option "Device" "/dev/input/event4"
+[  2459.226] (**) Option "_source" "server/udev"
+[  2459.228] (II) event4  - Logitech M585/M590: is tagged by udev as: Keyboard Mouse
+[  2459.228] (II) event4  - Logitech M585/M590: device is a pointer
+[  2459.228] (II) event4  - Logitech M585/M590: device is a keyboard
+[  2459.228] (II) event4  - Logitech M585/M590: device removed
+[  2459.229] (II) libinput: Logitech M585/M590: needs a virtual subdevice
+[  2459.229] (**) Option "config_info" "udev:/sys/devices/70090000.xusb/usb1/1-2/1-2.1/1-2.1:1.2/0003:046D:C52B.0003/0003:046D:406B.0007/input/input4/event4"
+[  2459.229] (II) XINPUT: Adding extended input device "Logitech M585/M590" (type: MOUSE, id 6)
+[  2459.230] (**) Option "AccelerationScheme" "none"
+[  2459.230] (**) Logitech M585/M590: (accel) selected scheme none/0
+[  2459.230] (**) Logitech M585/M590: (accel) acceleration factor: 2.000
+[  2459.230] (**) Logitech M585/M590: (accel) acceleration threshold: 4
+[  2459.232] (II) event4  - Logitech M585/M590: is tagged by udev as: Keyboard Mouse
+[  2459.232] (II) event4  - Logitech M585/M590: device is a pointer
+[  2459.232] (II) event4  - Logitech M585/M590: device is a keyboard
+[  2459.235] (II) config/udev: Adding input device Logitech M585/M590 (/dev/input/mouse0)
+[  2459.235] (II) No input driver specified, ignoring this device.
+[  2459.235] (II) This device may have been added with another device file.
+[  2459.238] (II) config/udev: Adding input device PFU Limited HHKB-Hybrid (/dev/input/event2)
+[  2459.238] (**) PFU Limited HHKB-Hybrid: Applying InputClass "libinput keyboard catchall"
+[  2459.238] (II) Using input driver 'libinput' for 'PFU Limited HHKB-Hybrid'
+[  2459.240] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 36 paused 0
+[  2459.241] (**) PFU Limited HHKB-Hybrid: always reports core events
+[  2459.241] (**) Option "Device" "/dev/input/event2"
+[  2459.241] (**) Option "_source" "server/udev"
+[  2459.243] (II) event2  - PFU Limited HHKB-Hybrid: is tagged by udev as: Keyboard
+[  2459.243] (II) event2  - PFU Limited HHKB-Hybrid: device is a keyboard
+[  2459.243] (II) event2  - PFU Limited HHKB-Hybrid: device removed
+[  2459.243] (**) Option "config_info" "udev:/sys/devices/70090000.xusb/usb1/1-2/1-2.3/1-2.3:1.0/0003:04FE:0021.0004/input/input2/event2"
+[  2459.243] (II) XINPUT: Adding extended input device "PFU Limited HHKB-Hybrid" (type: KEYBOARD, id 7)
+[  2459.243] (**) Option "xkb_model" "pc105"
+[  2459.243] (**) Option "xkb_layout" "jp"
+[  2459.301] (II) event2  - PFU Limited HHKB-Hybrid: is tagged by udev as: Keyboard
+[  2459.301] (II) event2  - PFU Limited HHKB-Hybrid: device is a keyboard
+[  2459.304] (II) config/udev: Adding input device PFU Limited HHKB-Hybrid (/dev/input/event3)
+[  2459.304] (**) PFU Limited HHKB-Hybrid: Applying InputClass "libinput keyboard catchall"
+[  2459.304] (II) Using input driver 'libinput' for 'PFU Limited HHKB-Hybrid'
+[  2459.308] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 37 paused 0
+[  2459.308] (**) PFU Limited HHKB-Hybrid: always reports core events
+[  2459.308] (**) Option "Device" "/dev/input/event3"
+[  2459.308] (**) Option "_source" "server/udev"
+[  2459.310] (II) event3  - PFU Limited HHKB-Hybrid: is tagged by udev as: Keyboard
+[  2459.310] (II) event3  - PFU Limited HHKB-Hybrid: device is a keyboard
+[  2459.310] (II) event3  - PFU Limited HHKB-Hybrid: device removed
+[  2459.310] (**) Option "config_info" "udev:/sys/devices/70090000.xusb/usb1/1-2/1-2.3/1-2.3:1.1/0003:04FE:0021.0005/input/input3/event3"
+[  2459.310] (II) XINPUT: Adding extended input device "PFU Limited HHKB-Hybrid" (type: KEYBOARD, id 8)
+[  2459.310] (**) Option "xkb_model" "pc105"
+[  2459.310] (**) Option "xkb_layout" "jp"
+[  2459.312] (II) event3  - PFU Limited HHKB-Hybrid: is tagged by udev as: Keyboard
+[  2459.313] (II) event3  - PFU Limited HHKB-Hybrid: device is a keyboard
+[  2459.314] (II) config/udev: Adding input device gpio-keys (/dev/input/event1)
+[  2459.314] (**) gpio-keys: Applying InputClass "libinput keyboard catchall"
+[  2459.314] (II) Using input driver 'libinput' for 'gpio-keys'
+[  2459.319] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 38 paused 0
+[  2459.319] (**) gpio-keys: always reports core events
+[  2459.319] (**) Option "Device" "/dev/input/event1"
+[  2459.319] (**) Option "_source" "server/udev"
+[  2459.321] (II) event1  - gpio-keys: is tagged by udev as: Keyboard
+[  2459.321] (II) event1  - gpio-keys: device is a keyboard
+[  2459.321] (II) event1  - gpio-keys: device removed
+[  2459.321] (**) Option "config_info" "udev:/sys/devices/gpio-keys/input/input1/event1"
+[  2459.321] (II) XINPUT: Adding extended input device "gpio-keys" (type: KEYBOARD, id 9)
+[  2459.321] (**) Option "xkb_model" "pc105"
+[  2459.321] (**) Option "xkb_layout" "jp"
+[  2459.323] (II) event1  - gpio-keys: is tagged by udev as: Keyboard
+[  2459.323] (II) event1  - gpio-keys: device is a keyboard
+[  2459.348] (**) Logitech M585/M590: Applying InputClass "libinput pointer catchall"
+[  2459.349] (**) Logitech M585/M590: Applying InputClass "libinput keyboard catchall"
+[  2459.350] (II) Using input driver 'libinput' for 'Logitech M585/M590'
+[  2459.350] (II) systemd-logind: returning pre-existing fd for /dev/input/event4 13:68
+[  2459.351] (**) Logitech M585/M590: always reports core events
+[  2459.351] (**) Option "Device" "/dev/input/event4"
+[  2459.351] (**) Option "_source" "_driver/libinput"
+[  2459.351] (II) libinput: Logitech M585/M590: is a virtual subdevice
+[  2459.351] (**) Option "config_info" "udev:/sys/devices/70090000.xusb/usb1/1-2/1-2.1/1-2.1:1.2/0003:046D:C52B.0003/0003:046D:406B.0007/input/input4/event4"
+[  2459.351] (II) XINPUT: Adding extended input device "Logitech M585/M590" (type: KEYBOARD, id 10)
+[  2459.351] (**) Option "xkb_model" "pc105"
+[  2459.351] (**) Option "xkb_layout" "jp"
+[  2460.438] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  2460.438] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): External TMDS
+[  2460.467] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  2460.468] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): External TMDS
+[  2460.470] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  2460.471] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): External TMDS
+[  2460.655] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  2460.655] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): External TMDS
+[  2460.682] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  2460.682] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): External TMDS
+[  2460.684] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  2460.685] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): External TMDS
+[  2460.707] (**) Option "fd" "33"
+[  2460.707] (**) Option "fd" "36"
+[  2460.707] (II) event2  - PFU Limited HHKB-Hybrid: device removed
+[  2460.708] (**) Option "fd" "37"
+[  2460.708] (II) event3  - PFU Limited HHKB-Hybrid: device removed
+[  2460.708] (**) Option "fd" "38"
+[  2460.708] (II) event1  - gpio-keys: device removed
+[  2460.708] (**) Option "fd" "33"
+[  2460.708] (II) event4  - Logitech M585/M590: device removed
+[  2460.711] (II) UnloadModule: "libinput"
+[  2460.711] (II) systemd-logind: not releasing fd for 13:68, still in use
+[  2460.711] (II) UnloadModule: "libinput"
+[  2460.711] (II) systemd-logind: releasing fd for 13:65
+[  2460.723] (II) UnloadModule: "libinput"
+[  2460.724] (II) systemd-logind: releasing fd for 13:67
+[  2460.744] (II) UnloadModule: "libinput"
+[  2460.744] (II) systemd-logind: releasing fd for 13:66
+[  2460.760] (II) UnloadModule: "libinput"
+[  2460.760] (II) systemd-logind: releasing fd for 13:68
+[  2460.863] (II) NVIDIA(GPU-0): Deleting GPU-0
+[  2461.006] (II) Server terminated successfully (0). Closing log file.
